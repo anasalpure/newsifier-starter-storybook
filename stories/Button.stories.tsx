@@ -4,8 +4,8 @@ import { storiesOf } from "@storybook/react";
 import { Button } from "../src";
 
 storiesOf("Button", module)
-
-
-  .add("Default", () => <Button>Default</Button>)
-  .add("Outlined", () => <Button>Outlined</Button>)
-  .add("Disabled", () => <Button>Default</Button>);
+  .add("Primary", () => <Button variant="primary">Primary</Button>)
+  .add("Secondary", () => <Button variant="secondary">Secondary</Button>)
+  .add("Error", () => <Button variant="error">Error</Button>)
+  .add("Disabled", () => <Button variant="disabled">Disabled</Button>)
+  .add("Custom", () => <Button variant="custom">Custom</Button>);
