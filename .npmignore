@@ -6,3 +6,7 @@ tsconfig.json
 .github
 __tests__
 yarn-error.log
+.storybook
+dist
+postcss.config.js
+tailwind.config.js
