@@ -11,3 +11,8 @@ export interface IButtonViewProps {
   className?: string;
   style?: React.CSSProperties;
 }
+
+export interface IReviewViewProps {
+  rate: number;
+  topRate?: number;
+}
